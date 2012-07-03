@@ -10,6 +10,8 @@ ZSH_THEME="robbyrussell"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias runserver="./manage.py runserver 0.0.0.0:8000"
+alias grunserver="./manage.py run_gunicorn 0.0.0.0:8000 --log-level=debug"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
