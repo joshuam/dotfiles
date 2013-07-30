@@ -26,6 +26,7 @@
     co = checkout
     p = push
     smupdate = submodule foreach git pull origin master --recurse-submodules
+    sync = !git co master && git fetch upstream && git merge upstream/master
 
 [core]
 	editor = /usr/bin/vim
